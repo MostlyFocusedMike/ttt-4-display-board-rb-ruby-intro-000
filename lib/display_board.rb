@@ -7,5 +7,5 @@ def display_board(board)
   binding.pry
 end
 
-board = [" "," "," "," "," "," "," "," "," "]
+board = [" "," ","x"," "," "," "," "," "," "]
 display_board(board)
