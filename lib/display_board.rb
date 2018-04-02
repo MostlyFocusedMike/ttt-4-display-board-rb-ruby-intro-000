@@ -2,7 +2,7 @@
 # out the current state.
 def display_board(board)
   cells = ["   ","   ","   ","   ","   ","   ","   ","   ","   "]
-  cells.map! {|xo| }
+  cells.map! {|xo| cells[xo][1] = board[xo.index(xo)]}
 end
 
 board = [" "," "," "," "," "," "," "," "," "]
