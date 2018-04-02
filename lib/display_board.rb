@@ -6,7 +6,7 @@ def display_board(board)
   7.times {|i| cells[i][1] = board[i]}
   # Would Print:
   puts " #{board[0} |   | "  
-# -----------
+  puts "-----------"
 #    |   |   
 # -----------
 #    |   |   
