@@ -5,7 +5,7 @@ def display_board(board)
   cells = ["   ","   ","   ","   ","   ","   ","   ","   ","   "]
   7.times {|i| cells[i][1] = board[i]}
   # Would Print:
-  puts " #{board[0] | #{board[] | #{board[0]} "  
+  puts " #{board[0]} | #{board[]} | #{board[0]} "  
   puts "-----------"
   puts " #{board[0} | #{board[0} | #{board[0} "  
   puts "-----------"
