@@ -3,7 +3,7 @@
 require 'pry'
 def display_board(board)
   cells = ["   ","   ","   ","   ","   ","   ","   ","   ","   "]
-  cells.map! {|xo| cells[xo] = board[xo.index(xo)]}
+  7.times {|xo| cells[] = board[xo.index(xo)]}
   binding.pry
 end
 
