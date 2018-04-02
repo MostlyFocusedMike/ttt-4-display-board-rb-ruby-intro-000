@@ -4,7 +4,12 @@ require 'pry'
 def display_board(board)
   cells = ["   ","   ","   ","   ","   ","   ","   ","   ","   "]
   7.times {|i| cells[i][1] = board[i]}
-  binding.pry
+  # Would Print:
+  puts " #{board[0}   |   |   
+# -----------
+#    |   |   
+# -----------
+#    |   |   
 end
 
 board = [" "," ","x"," "," "," "," "," "," "]
